@@ -1,0 +1,229 @@
+.hrv-chart-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.hrv-header {
+  margin-bottom: 20px;
+}
+
+.hrv-header h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.range-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.range-controls input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.range-controls input:focus {
+  outline: none;
+  border-color: #2E8B57;
+  box-shadow: 0 0 0 2px rgba(46, 139, 87, 0.2);
+}
+
+.btn-apply, .btn-reset, .btn-close {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-apply {
+  background-color: #2E8B57;
+  color: white;
+}
+
+.btn-apply:hover {
+  background-color: #228B22;
+}
+
+.btn-reset {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-reset:hover {
+  background-color: #5a6268;
+}
+
+.btn-close {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-close:hover {
+  background-color: #c82333;
+}
+
+.hrv-chart {
+  margin: 20px 0;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.hrv-info {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #666;
+}
+
+.hrv-info p {
+  margin: 5px 0;
+}
+
+/* HRV 요약 정보 */
+.hrv-summary {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.hrv-summary h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.metric-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+
+.metric-label {
+  font-weight: 500;
+  color: #666;
+  font-size: 14px;
+}
+
+.metric-value {
+  font-weight: 600;
+  color: #2E8B57;
+  font-size: 16px;
+}
+
+/* 차트 섹션 */
+.chart-section {
+  margin: 30px 0;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-section h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: 2px solid #2E8B57;
+  padding-bottom: 8px;
+}
+
+/* Poincaré plot 정보 */
+.poincare-info {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #8A2BE2;
+}
+
+.poincare-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.poincare-info p:first-child {
+  font-weight: 600;
+  color: #333;
+}
+
+/* 에러 메시지 */
+.error-message {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 6px;
+  padding: 15px;
+  color: #856404;
+}
+
+.error-message p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.error-message ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.error-message li {
+  margin: 5px 0;
+  font-size: 13px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .range-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .range-controls input {
+    width: 100%;
+  }
+  
+  .hrv-chart-container {
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .chart-section {
+    padding: 15px;
+    margin: 20px 0;
+  }
+}

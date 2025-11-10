@@ -1,0 +1,472 @@
+.test-container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.test-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.test-container .btn_box {
+  width: 7%;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.upload-section {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+
+.file-name {
+  margin-top: 10px;
+  color: #666;
+  font-style: italic;
+}
+
+.chart-section {
+  margin-top: 30px;
+}
+
+.chart-section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 18px;
+}
+
+.no-data p {
+  margin: 0;
+}
+
+.data-info {
+  margin-bottom: 20px;
+}
+
+.data-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  border: 1px solid #bbdefb;
+}
+
+.stat-item {
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.stat-item strong {
+  color: #1976d2;
+  margin-right: 8px;
+}
+
+.data-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.summary-item {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.summary-item strong {
+  color: #495057;
+  margin-right: 8px;
+}
+
+.chart-container h3 {
+  margin-bottom: 15px;
+  color: #495057;
+  font-size: 18px;
+}
+
+.hrv-metrics {
+  margin-bottom: 20px;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  background-color: #f0f8f0;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+}
+
+.metric-item {
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.metric-item strong {
+  color: #2e7d32;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.hrv-section {
+  margin-top: 30px;
+}
+
+.hrv-section h3 {
+  color: #2e7d32;
+  margin: 20px 0 15px 0;
+  font-size: 18px;
+  border-bottom: 2px solid #c8e6c9;
+  padding-bottom: 5px;
+}
+
+.hrv-metrics {
+  margin-bottom: 30px;
+}
+
+.metrics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #45a049;
+}
+
+.metric-item {
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.metric-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.status-badge {
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.metric-details {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #4CAF50;
+  margin-top: 10px;
+}
+
+.metric-details > div {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.metric-details > div:last-child {
+  margin-bottom: 0;
+}
+
+.normal-range {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.description {
+  color: #424242;
+}
+
+.stress-summary {
+  margin-bottom: 20px;
+}
+
+.stress-score-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stress-score-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stress-score {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stress-level {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* 계산법 가이드 스타일 */
+.calculation-guide {
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.guide-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.back-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 20px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+
+.guide-header h1 {
+  color: #333;
+  margin: 0;
+  font-size: 36px;
+}
+
+.guide-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.guide-section {
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.guide-section h2 {
+  color: #2e7d32;
+  border-bottom: 2px solid #c8e6c9;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.metric-explanation {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #4CAF50;
+}
+
+.metric-explanation h3 {
+  color: #1976d2;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.metric-explanation p {
+  margin-bottom: 12px;
+  color: #424242;
+  font-size: 21px;
+}
+
+.formula {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1976d2;
+  margin: 15px 0;
+  text-align: center;
+  border: 1px solid #bbdefb;
+}
+
+.process-step {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #fff3e0;
+  border-radius: 8px;
+  border-left: 4px solid #ff9800;
+}
+
+.process-step h3 {
+  color: #f57c00;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.process-step ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.process-step li {
+  margin-bottom: 8px;
+  color: #424242;
+  font-size: 19px;
+}
+
+.note-box {
+  background-color: #e8f5e8;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4CAF50;
+}
+
+.note-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.note-box li {
+  margin-bottom: 10px;
+  color: #2e7d32;
+  font-size: 19px;
+}
+
+/* 지표 계산법 버튼 스타일 */
+.guide-button-container {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.guide-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guide-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.guide-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(102, 126, 234, 0.4);
+}
+

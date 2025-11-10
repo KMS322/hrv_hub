@@ -1,0 +1,54 @@
+.detail_container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.detail_container .head_row p:nth-child(1) {
+  width: 15%;
+}
+.detail_container .head_row p:nth-child(2) {
+  width: 30%;
+}
+.detail_container .head_row p:nth-child(3) {
+  width: 10%;
+}
+.detail_container .head_row p:nth-child(4) { 
+  width: 20%;
+}
+.detail_container .body_row {
+  width: 100%;
+  height: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-bottom: 0.5vw;
+}
+.detail_container .body_row p {
+  cursor: default;
+}
+.detail_container .body_row .btn_box {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail_container .body_row .btn_box .btn {
+  width: 45%;
+  height: 70%;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.detail_container .body_row p:nth-child(1) {
+  width: 15%;
+}
+.detail_container .body_row p:nth-child(2) {
+  width: 30%;
+}
+.detail_container .body_row p:nth-child(3) {
+  width: 10%;
+}

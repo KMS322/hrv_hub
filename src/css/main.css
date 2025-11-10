@@ -1,0 +1,63 @@
+/* main_s1 */
+.main_container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3vw;
+}
+.head_row {
+  width: 100%;
+  height: 3vw;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head_row p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+
+}
+.main_container .head_row p:nth-child(1) {
+  width: 30%;
+}
+.main_container .head_row p:nth-child(2) {
+  width: 20%;
+}
+.main_container .head_row p:nth-child(3) {
+  width: 30%;
+}
+.main_container .head_row p:nth-child(4) { 
+  width: 10%;
+}
+.main_container .body_row {
+  width: 100%;
+  height: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.body_row p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+}
+.main_container .body_row p:nth-child(1) {
+  width: 30%;
+}
+.main_container .body_row p:nth-child(2) {
+  width: 20%;
+}
+.main_container .body_row p:nth-child(3) {
+  width: 30%;
+}
+.main_container .body_row p:nth-child(4) { 
+  width: 10%;
+}
